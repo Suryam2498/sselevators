@@ -4,7 +4,7 @@ Static one-page website for **SS Elevators**, an ISO 9001:2015 certified elevato
 manufacturer and service provider operating across Telangana and Andhra Pradesh
 since 2018.
 
-Live site: _add the URL here once deployed_
+Live site: <https://sselevatorsindia.com>
 
 ## Stack
 
@@ -34,17 +34,13 @@ netlify.toml          deploy config
 
 Drag the project folder onto <https://app.netlify.com/drop>.
 
-## After the first deploy
+## Domain
 
-Replace every occurrence of `REPLACE-WITH-YOUR-DOMAIN` with the live host
-(no scheme, no trailing slash) in:
+The site is configured for **sselevatorsindia.com** — the canonical link, Open Graph
+image, `robots.txt` and `sitemap.xml` all point at it. Nothing to replace.
 
-- `index.html` — `<link rel="canonical">` and `og:image`
-- `robots.txt` — sitemap line
-- `sitemap.xml` — `<loc>`
-
-The `og:image` URL must be absolute, otherwise WhatsApp and LinkedIn link
-previews show a blank card instead of the SS Elevators logo.
+If the domain ever changes, update it in `index.html` (canonical + og:image),
+`robots.txt` and `sitemap.xml`.
 
 ## What's already set up
 
